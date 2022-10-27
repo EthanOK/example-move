@@ -6,11 +6,11 @@ module ethan::math1{
         return a + (b as u64)
     }
     public fun max(a:u64,b:u64):u64{
-       if(a > b)  a else b
+        if(a > b)  a else b
     }
     // 1+2+3+...+100+...a
     public fun sum100(a:u64):u64{
-       let i:u64 = 1;
+        let i:u64 = 1;
         let sum:u64 = 0;
         while(i <= a){
             sum = sum + i;
@@ -20,7 +20,7 @@ module ethan::math1{
     }
     // 1+3+5+...+99+...a
     public fun sum99(a:u64):u64{
-       let i:u64 = 0;
+        let i:u64 = 0;
         let sum:u64 = 0;
         while(i <= a){
             i = i + 1;

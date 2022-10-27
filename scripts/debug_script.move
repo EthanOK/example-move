@@ -5,4 +5,5 @@ script {
         debug::print(&account)
     }
 }
+
 // move-cli sandbox run scripts/debug_script.move --signers 0xf
