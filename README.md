@@ -1,3 +1,4 @@
+解压 aptos-stdlib move-stdlib.zip，将aptos-stdlib和move-stdlib文件夹放至与example-move同目录下。
 # example-move
 
 ```
