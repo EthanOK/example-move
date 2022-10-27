@@ -1,0 +1,12 @@
+[package]
+name = "example-move"
+version = "1.0.0"
+
+
+[dependencies]
+MoveStdlib = { local = "../move-stdlib" }
+AptosStdlib = { local = "../aptos-stdlib" }
+
+[addresses]
+std = "0x1"
+
