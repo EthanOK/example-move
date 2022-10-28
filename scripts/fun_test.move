@@ -1,6 +1,6 @@
 script {
     use std::debug;
-    use ethan::math1 as Math;
+    use ethan::math as Math;
     fun main(a:u64){  
         if(a % 2 == 0){
             let sum100:u64 = Math::sum100(a);

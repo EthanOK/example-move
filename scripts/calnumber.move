@@ -1,6 +1,6 @@
 script {
     use std::debug;
-    use ethan::math1 as Math;
+    use ethan::math as Math;
     
     fun main(a:u64, b:u64){
         let c = Math::sum(a, b);
