@@ -10,4 +10,3 @@ AptosStdlib = { local = "../aptos-stdlib" }
 [addresses]
 std = "0x1"
 ethan = "0x888"
-

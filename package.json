@@ -1,0 +1,10 @@
+{
+  "name": "example-move",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "Publish": "move-cli sandbox publish -v",
+    "Run": "move-cli sandbox run scripts/test_abort.move --args 50"
+  },
+  "author": "ethan"
+}
