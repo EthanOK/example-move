@@ -30,4 +30,16 @@ module ethan::math{
         };
         return sum
     }
+    // Calculate the area of the circle
+    const PI:u64 = 314;
+     public fun get_area(r:u64):u64{
+        return PI*r*r
+     }
+
+    // Swapping two numbers
+    public fun swap_number(a:&mut u64, b:&mut u64){
+        let temp = *a;
+        *a = *b;
+        *b = temp;
+    }
 }

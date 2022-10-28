@@ -13,6 +13,8 @@ script {
         let e = Math::max(a, b);
         debug::print(&e);
         
+        let f = Math::get_area(a);
+        debug::print(&f);
     }
 }
 
