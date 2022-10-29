@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "move-cli": "move-cli",
+    "Build": "move-cli build",
     "Publish": "move-cli sandbox publish -v",
-    "Run": "move-cli sandbox run scripts/test_abort.move --args 50"
+    "signer_test": "move-cli sandbox run scripts/signer_test.move --args --args 0x777 0x555",
+    "resource_test": "move-cli sandbox run scripts/resource_test.move --args 0x668"
   },
   "author": "ethan"
 }

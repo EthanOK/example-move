@@ -15,4 +15,4 @@ script {
 }
 
 // move-cli sandbox publish -v
-// move-cli sandbox run scripts/test_abort.move --args 100
+// move-cli sandbox run scripts/abort_test.move --args 100
