@@ -31,10 +31,17 @@ module ethan::collection{
         Vector::push_back<Item>(&mut collection.items, Item{});
      }
 
-    //
+    // size
     public fun size(account:&signer):u64 acquires Collection{
         let addr = Signer::address_of(account);
         let collection = borrow_global<Collection>(addr);
         Vector::length(&collection.items)
+    }
+    // destory
+    public fun destory(account:&signer)acquires Collection{
+         let addr = Signer::address_of(account);
+        let collection = move_from<Collection>(addr);
+        // destory resource
+        let Collection{items:_} = collection;
     }
 }

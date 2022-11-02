@@ -3,6 +3,10 @@ script{
     // use std::signer as Signer;
     use ethan::collection;
     fun main(account:signer){ 
+        let success = collection::exists_collecton(&account);
+        if(success) {
+            collection::destory(&account);
+        };
         collection::create_collecton(&account);
         let success = collection::exists_collecton(&account);
         Debug::print(&success);
